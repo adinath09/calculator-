@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Consultancy Budget Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Construction Consultancy Budget Calculator</h1>
+        <form id="budgetForm">
+            <div class="form-group">
+                <label for="projectCost">Project Cost (₹):</label>
+                <input type="number" id="projectCost" required>
+            </div>
+            <div class="form-group">
+                <label for="materialCost">Material Cost (₹):</label>
+                <input type="number" id="materialCost" required>
+            </div>
+            <div class="form-group">
+                <label for="laborCost">Labor Cost (₹):</label>
+                <input type="number" id="laborCost" required>
+            </div>
+            <div class="form-group">
+                <label for="miscExpenses">Miscellaneous Expenses (₹):</label>
+                <input type="number" id="miscExpenses" required>
+            </div>
+            <div class="form-group">
+                <label for="permitFees">Permit Fees (₹):</label>
+                <input type="number" id="permitFees" required>
+            </div>
+            <div class="form-group">
+                <label for="insuranceCost">Insurance Cost (₹):</label>
+                <input type="number" id="insuranceCost" required>
+            </div>
+            <div class="form-group">
+                <label for="contingency">Contingency (%) :</label>
+                <input type="number" id="contingency" required>
+            </div>
+            <div class="form-group">
+                <label for="overhead">Overhead (%) :</label>
+                <input type="number" id="overhead" required>
+            </div>
+            <div class="form-group">
+                <label for="consultancyFee">Consultancy Fee (%) :</label>
+                <input type="number" id="consultancyFee" required>
+            </div>
+            <button type="button" onclick="calculateBudget()">Calculate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
