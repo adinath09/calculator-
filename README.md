@@ -4,6 +4,7 @@
 ## 📦 Application Description
 
 **Project Name:** Construction Budget Calculator
+
 **Overview:**
 A browser-based construction budget calculator built using HTML, CSS, and JavaScript. It helps users estimate the total project cost by summing core costs and applying percentage-based additions like contingency, overhead, and consultancy fees.
 
